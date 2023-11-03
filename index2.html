@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CosmicArt</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+	<div class="logo">
+	<header>
+		<img src="logo.jpg">
+		<h2>Cosmic-Art</h2>
+	</header>
+	</div>
+
+	<div class="container_title"></div>
+
+	<main>
+		<div class="container-img">
+			<img src="01.jpg" alt="imagen-producto">
+		</div>
+		<div class="container-info-product">
+			<div class="container-price">
+				<span>$2.500</span>
+				<i class="fa-solid fa-angle-right"></i>
+			</div>
+
+			<div class="container-details-product">
+				<div class="form-group">
+					<label for="estilo">Estilo</label>
+					<select name="estilo" id="estilo"> 
+						<option disabled value="">
+							Escoge una opción
+						</option>
+						<option value="Dos colores">Dos colores</option>
+						<option value="Tres colores">Tres colores</option>
+						<option value="Cuatro colores">Cuatro colores</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="Talla">Talla</label>
+					<select name="Talla" id="Talla"> 
+						<option disabled value="">
+							Escoge una opción
+						</option>
+						<option value="Pequeño">Pequeño</option>
+						<option value="Mediana">Mediana</option>
+						<option value="Grande">Grande</option>
+					</select>
+				</div>
+				<button  class="btn-clean">Limpiar</button> 
+			</div>
+
+			<div class="container-add-cart">
+				<div class="container-quantity">
+					<input
+						type="number"
+						placeholder="1"
+						value="1"
+						min="1"
+						class="input-quantity"
+					/>
+					<div class="btn-increment-decrement">
+						<i class="fa-solid fa-chevron-up" id="increment"></i>
+						<i class="fa-solid fa-chevron-down" id="decrement"></i>
+					</div>
+				</div>
+				<button class="btn-add-to-cart">
+					<i class="fa-solid fa-plus"></i>
+					Añadir al carrito
+				</button>
+			</div>
+
+			<div class="container-description">
+				<div class="title-description">
+					<h4>Descripción</h4>
+					<i class="fa-solid fa-chevron-down"></i>
+				</div>
+				<div class="text-description">
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit. Laboriosam iure provident atque voluptatibus
+						reiciendis quae rerum, maxime placeat enim cupiditate
+						voluptatum, temporibus quis iusto. Enim eum qui delectus
+						deleniti similique? Lorem, ipsum dolor sit amet
+						consectetur adipisicing elit. Sint autem magni earum est
+						dolorem saepe perferendis repellat ipsam laudantium cum
+						assumenda quidem quam, vero similique? Iusto officiis
+						quod blanditiis iste?
+					</p>
+				</div>
+			</div>
+		
+			<div class="container-additional-information">
+				<div class="title-additional-information">
+					<h4>Información adicional</h4>
+					<i class="fa-solid fa-chevron-down"></i>
+				</div>
+				<div class="text-additional-information hidden">
+					<p>-----------</p>
+				</div>
+			</div>
+			
+			<div class="container-reviews">
+				<div class="title-reviews">
+					<h4>Reseñas</h4>
+					<i class="fa-solid fa-chevron-down"></i>
+				</div>
+				<div class="text-reviews hidden">
+					<p>-----------</p>
+				</div>
+			</div>
+
+			<div class="container-social">
+				<span>Compartir</span>
+				<div class="container-buttons-social">
+					<a href="#"><i class="fa-solid fa-envelope"></i></a>
+					<a href="#"><i class="fa-brands fa-facebook"></i></a>
+					<a href="#"><i class="fa-brands fa-twitter"></i></a>
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<section class="container-related-products">
+		<h2>Productos Relacionados</h2>
+		<div class="card-list-products">
+			<div class="card">
+				<div class="card-img">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSXyVpHbVAylZwPeFhRCRi4OiN-ZgBnK1Yog&usqp=CAU" alt="producto-1">
+				</div>
+				<div class="info-card">
+					<div class="text-product">
+						<h3>Pulsera Mostacilla Negra y Dorada</h3>
+						<p class="category">
+							Pulsera, Mostacilla 
+						</p>
+					</div>
+					<div class="price">$2.500</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-img">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSANrH0J0uJKZVEn21nJNrimJixHBznKkfCmQ&usqp=CAU" alt="producto-2">
+				</div>
+				<div class="info-card">
+					<div class="text-product">
+						<h3>Pulsera Mostacilla Azul y Dorada</h3>
+						<p class="category">
+							Pulsera, Mostacilla 
+						</p>
+					</div>
+					<div class="price">$2.500</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-img">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9TQWC2dizqX8q8NGVSlaWfNHBE7OeykWCeg&usqp=CAU" alt="producto-3">
+				</div>
+				<div class="info-card">
+					<div class="text-product">
+						<h3>Pulsera Con Estilo Azul</h3>
+						<p class="category">
+							Pulsera, Mostacilla 
+						</p>
+					</div>
+					<div class="price">$2.500</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-img">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4GtBg2zKhscZFfjOM0cKucjbIbpgqxYDRA&usqp=CAU" alt="producto-4">
+				</div>
+				<div class="info-card">
+					<div class="text-product">
+						<h3>Combo 3 Pulseras Mostacilla Básicas</h3>
+						<p class="category">
+							Pulsera, Mostacilla 
+						</p>
+					</div>
+					<div class="price">$2.500</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p></p>
+	</footer>
+	<script
+	src="https://kit.fontawesome.com/81581fb069.js"
+	crossorigin="anonymous"
+></script>
+<script src="index.js"></script>
+</body>
+</html>
